@@ -1,7 +1,43 @@
-ul {
-    font-style: italic;
-    font-size: larger;
-}
-{
+* {
+    margin: 2px;
+    padding: 2px;
+    border: 2px;
     
 }
+
+body {
+    background-color: #686868;
+    font-size: x-large;
+    text-align: center;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Arial,sans-serif;
+    
+}
+ .background p {
+    font-style: normal;
+       
+}
+.experience  p {
+    font-size: x-large;
+    
+}
+.hobby  {
+    float: none;
+
+}
+
+ol {
+    list-style-type: none;
+    
+}
+
+.skills { 
+    list-style-type: none;
+  
+}
+
+
