@@ -9,35 +9,40 @@ body {
     background-color: #686868;
     font-size: x-large;
     text-align: center;
+    padding: 10px;
+    margin: 0 ;
+    border: 15px solid green;
     font-style: italic;
+
+}
+.container {
+    
+    color: ivory;
+    font-size: larger;
+
 }
 
-ul {
-    list-style-type: none;
-    font-family: Arial,sans-serif;
+h1 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+    font-style: italic;
     
 }
- .background p {
-    font-style: normal;
-       
-}
-.experience  p {
-    font-size: x-large;
-    
-}
-.hobby  {
-    float: none;
-
+h1, p {
+    color: black;
 }
 
-ol {
+ul, li {
     list-style-type: none;
+    color: black;
     
 }
 
-.skills { 
+ol, li {
     list-style-type: none;
-  
+    color: black;
 }
+
 
 
