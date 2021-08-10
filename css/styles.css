@@ -6,12 +6,12 @@
 }
 
 body {
+    font-family: 'Viaoda Libre', cursive;
     background-color: #686868;
     font-size: x-large;
     text-align: center;
     padding: 10px;
     margin: 0 ;
-    border: 15px solid green;
     font-style: italic;
 
 }
@@ -24,7 +24,6 @@ body {
 
 h1 {
     color: black;
-    font-family: Arial, sans-serif;
     font-size: 100px;
     font-style: italic;
     
@@ -43,6 +42,38 @@ ol, li {
     list-style-type: none;
     color: black;
 }
+ul a:hover{
+    color:white;
+}
+#social ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
 
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
 
